@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    background-color: rgba(27, 168, 41, 0.885);
+}
+table {
+    text-align: center;
+    width: 50%;
+}
+th {
+    height: 50px;
+}
+td {
+    height: 38px;
+}
+td:hover {
+    background-color: antiquewhite;
+}
+td:active {
+    background-color: aquamarine;
+}
+
+#display {
+    text-align: right;
+    padding-right: 8px;
+    font-size: 30px;
+}
+
+.bg-grey {
+    background-color: rgb(133, 172, 211);
+}
+.bg-red {
+    background-color: rgb(219, 10, 10);
+}
+.bg-white {
+    background-color: white;
+}
+
+.head-style {
+    color: white;
+    text-decoration: underline;
+    background-color: rgb(19, 198, 84);
+    padding: 10px;
+}
